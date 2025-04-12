@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Personal Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="d-flex align-items-center hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4 fade-in">Welcome to My Website</h1>
+            <p class="lead mb-5 fade-in">Web Designer | Graphics Designer | Developer</p>
+            <a href="#about" class="btn btn-lg btn-primary px-5 py-3 rounded-pill fade-in">Get to know me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                    <div class="position-relative">
+                        <img src="image/profile.jpeg" alt="Profile Picture" class="img-fluid rounded-circle profile-img">
+                        <h3 class="mt-4 fw-bold profile-name">Noel John Loresco</h3>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <p style="text-align: justify;">
+                        <i class="fas fa-music me-2 text-primary"></i> I'm someone who's really passionate about music. it's a constant source of inspiration for me and 
+                        <i class="fas fa-tv me-2 text-primary"></i> I love diving into anime, exploring its unique stories and visuals. 
+                        <i class="fas fa-basketball me-2 text-primary"></i> Basketball keeps me active and energized, and it's a great way to connect with others.
+                    </p>
+                    <p style="text-align: justify;">
+                        <i class="fas fa-laptop-code me-2 text-primary"></i> I've been building my skills in web designing and graphics designing, which lets me express my creativity in exciting ways. 
+                        <i class="fab fa-python me-2 text-primary"></i> I'm also learning Python programming, which is helping me sharpen my problem-solving and coding abilities.
+                    </p>
+                    <p style="text-align: justify;">
+                        <i class="fas fa-briefcase me-2 text-primary"></i> On top of all that, I've gained solid work experience during my two years at Jollibee, where I've learned a lot about teamwork, customer service, and the value of hard work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-4">
+                                <i class="fas fa-code fa-3x text-primary"></i>
+                            </div>
+                            <h3 class="card-title">Frontend</h3>
+                            <p class="card-text">HTML, CSS, JavaScript, Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-4">
+                                <i class="fas fa-database fa-3x text-primary"></i>
+                            </div>
+                            <h3 class="card-title">Backend</h3>
+                            <p class="card-text">MySql, PHP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-4">
+                                <i class="fas fa-tools fa-3x text-primary"></i>
+                            </div>
+                            <h3 class="card-title">Other</h3>
+                            <p class="card-text">Github, Git, Graphic Design, Python</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="image/project1.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="badge bg-primary">Web Design</span>
+                                <!-- <a href="#" class="btn btn-sm btn-outline-primary"><i class="fas fa-link"></i> View</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="image/project2.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="badge bg-primary">Development</span>
+                                <!-- <a href="#" class="btn btn-sm btn-outline-primary"><i class="fas fa-link"></i> View</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="image/project3.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Description</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="badge bg-primary">Design</span>
+                                <!-- <a href="#" class="btn btn-sm btn-outline-primary"><i class="fas fa-link"></i> View</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <!-- <div class="mb-4">
+                <a href="#" class="text-white mx-2"><i class="fab fa-github fa-lg"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-lg"></i></a>
+            </div> -->
+            <p>Personal Website</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
